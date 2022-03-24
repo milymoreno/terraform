@@ -14,3 +14,9 @@ variable "list1" {
   type = list
   default=[0,1,2,3,4]
 }
+
+variable "aws_region"{
+    type = string
+    description="AWS Region"
+
+}
