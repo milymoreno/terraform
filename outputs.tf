@@ -17,3 +17,6 @@ output "bucket_grant" {
 output "bucket_regional_name" {
  value = aws_s3_bucket.curso_terraform1.bucket_regional_domain_name
 }
+
+
+ 

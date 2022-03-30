@@ -20,3 +20,5 @@ variable "aws_region"{
     description="AWS Region"
 
 }
+
+#variable "vpc_id" {}
