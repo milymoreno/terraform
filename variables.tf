@@ -21,4 +21,7 @@ variable "aws_region"{
 
 }
 
-#variable "vpc_id" {}
+variable "vpc_id" {
+  type = string
+  default = "id de la vpc en AWS"
+}

@@ -9,5 +9,7 @@ terraform {
 # Configure The AWS Provider
 provider "aws" {
     region = var.aws_region
+    #profile = default
+    profile = "tallerteraform"
     #region = "us-east-1"  
 }
